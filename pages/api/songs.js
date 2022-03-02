@@ -4,7 +4,7 @@ export default function handler(req, res) {
   const default_url = process.env.default_url;
   res.status(200).json({
     name: 'Relax Song 1',
-    song: default_url + '/songs/song1.mp3'
+    song: default_url + '/songs/song1.mp3',
     particles: default_url + '/particles/firework.json'
   })
 }
