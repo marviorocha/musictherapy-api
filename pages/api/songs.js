@@ -11,7 +11,7 @@ export default function handler(req, res) {
     {
       name: 'Relax Song 2',
       song: default_url + '/songs/song2.mp3',
-      particles: default_url + '/particles/firework.json'
+      particles: default_url + '/particles/default.json'
     }
 
 
